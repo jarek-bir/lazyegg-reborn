@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Lazy Egg JS Watcher (Reborn Edition)",
+  "version": "3.0",
+  "description": "Passive JS recon extension with debug logs, CDN filtering, and export features.",
+  "permissions": [
+    "scripting",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Lazy Egg",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [{
+    "resources": ["consolas.ttf"],
+    "matches": ["<all_urls>"]
+  }]
+}

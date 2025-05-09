@@ -1,0 +1,5 @@
+*.zip
+*.DS_Store
+__pycache__/
+lazyegg_urls.txt
+lazyegg_urls.json
